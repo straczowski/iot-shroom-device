@@ -1,0 +1,24 @@
+{
+  "name": "iot-shroom-device",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/straczowski/iot-shroom-device.git"
+  },
+  "author": "Raoul Straczowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/straczowski/iot-shroom-device/issues"
+  },
+  "homepage": "https://github.com/straczowski/iot-shroom-device#readme",
+  "dependencies": {
+    "gpio": "^0.2.7",
+    "typescript": "^2.6.2"
+  }
+}
