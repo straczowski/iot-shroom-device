@@ -23,3 +23,40 @@
 # Pin Belegung mit WiringPi
 
 [Pin Belegung](https://de.pinout.xyz/pinout/wiringpi)
+
+
+# Shutdon Raspberry
+
+```
+$ sudo shutdown -h 0
+```
+
+
+
+# Connt to Wifi
+
+[hier](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
+
+```
+$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
+```
+network={
+    ssid="{SSID_NAME}"
+    psk="{SSID_PW}"
+}
+```
+
+```
+$ wpa_cli -i wlan0 reconfigure
+```
+
+## SSH auf Mac reset
+
+```
+ssh-keygen -f "/Users/raoulstraczowski/.ssh/known_hosts" -R 192.168.2.100
+```
+192.168.0.15
+
+192.168.2.100
