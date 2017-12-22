@@ -19,6 +19,7 @@
   "homepage": "https://github.com/straczowski/iot-shroom-device#readme",
   "dependencies": {
     "gpio": "^0.2.7",
+    "rpi-gpio": "^0.9.1",
     "typescript": "^2.6.2"
   }
 }
